@@ -1,12 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .graph-container {
     display: block;
     position: relative;
     top: 10vh;
     left: 40vw;
+    background-color: #F5F5F5;
+    width: 270px;
+    padding: 2em;
 }
 
 .graph-container h1 {
-    margin-left: 4.5em;
+    margin-left: 3em;
+    
 }
 
 .bar-element {
@@ -17,11 +27,11 @@
     height: 50vh;
     text-align: center;
     margin: 10vh 1.3vw;
-    background-color: gray;
+    background-color: #CAC6C0;
 }
 
 .bar-element p {
-    margin-left: 2.5em;
+    margin-left: 1.5em;
     margin-top: -4em;
 }
 
